@@ -1,0 +1,10 @@
+@use "../abstract/variable" as var;
+
+
+.badge {
+    padding: 0px 10px;
+
+    &-primary {
+     background-color: map-get(var.$theme-colors,"primary");
+    }
+}

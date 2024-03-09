@@ -1,0 +1,18 @@
+.font-a {
+  font-family: "Mukta Malar", sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.color-anim {
+  transition: 500ms;
+  animation: color-change 10s infinite;
+}
+
+.line {
+  background-color: red;
+  width: 5rem;
+  height: 0.5rem;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,47 @@
+@use "../abstract/functions" as func;
+@use "../abstract/mixins" as mixins;
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    background-color:func.theme-colors();
+    color: white;
+
+    h1 {
+        @include mixins.responsive(xs) {
+            font-size: 1.2rem;
+        }
+        @include mixins.responsive(sm) {
+            font-size: 1.2rem;
+        }
+        @include mixins.responsive(md) {
+            font-size: 1.2rem;
+        }
+    }
+
+    p {
+        margin: 1rem;
+        color: rgb(208, 195, 195);
+        font-size:0.9rem;
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            text-shadow: 2px 2px 10px black;
+        }
+    }
+
+    .social-icon >a >i {
+        margin-bottom: 1.2rem;
+        transition: 600ms;
+        font-size: 1.5rem;
+        padding: 0 13px;
+        color:#1619a0;
+
+        &:hover {
+            color: white;
+        }
+    }
+}

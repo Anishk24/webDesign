@@ -1,0 +1,23 @@
+// base
+@import "./base/reset";
+@import "./base/global";
+
+// components
+@import "./components/button";
+@import "./components/badges";
+@import "./components/form";
+
+// layouts
+@import "./layouts/header";
+@import "./layouts/background_elements";
+@import "./layouts/footer";
+
+// utilites
+@import "./utilites/animation";
+
+// pages
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/roadmap";
+@import "./pages/courses";
+@import "./pages/contact";

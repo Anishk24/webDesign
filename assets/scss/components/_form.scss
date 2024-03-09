@@ -1,0 +1,21 @@
+@use "../abstract/functions" as func;
+@use "../abstract/mixins" as mixins;
+
+.form-control {
+    padding:0.8rem 1.5rem;
+    margin: 1rem;
+    width:100%;
+    background-color:rgb(224, 224, 224);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    flex-grow:1;
+
+    &:focus {
+        border: 2px solid func.theme-colors();
+    }
+}
+
+.resize-none {
+    resize: none;
+}
