@@ -55,9 +55,9 @@
 
         p {
             color:rgb(223,223,223);
-            @include mixins.responsive(xxlg) {
-                margin-left: 10rem;
-            }
+            // @include mixins.responsive(xxlg) {
+            //     margin-left: 10rem;
+            // }
         }
     }
 
