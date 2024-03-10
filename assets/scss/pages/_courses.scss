@@ -19,15 +19,16 @@
     
     }
     @include mixins.responsive(lg) {
-        padding: 8rem 8rem;
+        padding: 8rem 6rem;
     
     }
     @include mixins.responsive(xlg) {
-        padding: 8rem 20rem;
+        padding: 8rem 28rem;
+    
     
     }
     @include mixins.responsive(xxlg) {
-        padding: 8rem 20rem;
+        padding: 8rem 28rem;
     
     }
 
@@ -49,6 +50,7 @@
     &-cards {
         display: flex;
         justify-content: space-between;
+    
 
         @include mixins.responsive(xs) {
             flex-direction: column;
@@ -69,8 +71,23 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+        
+        
 
 
+        }
+        @include mixins.responsive(xlg) {
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-between;
+        
+        
+        }
+        @include mixins.responsive(xxlg) {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between; 
+        
         }
     }
 
@@ -90,16 +107,28 @@
             margin-bottom: 1rem;
         }
         @include mixins.responsive(lg) {
-            margin-bottom: 1rem;
+            max-width: 280px;
+            align-items: center;
     
         }
+        @include mixins.responsive(xlg) {
+            max-width: 280px;
+            align-items: center;
+    
+        }
+        @include mixins.responsive(xxlg) {
+            max-width: 280px;
+            align-items: center;
+    
+        }
+        
 
     
 
         &--img {
             width: 360px;
             @include mixins.responsive(lg) {
-                width: 360px;  
+               width:300px;  
             }
 
         }
