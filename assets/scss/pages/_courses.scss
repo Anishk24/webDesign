@@ -19,16 +19,23 @@
     
     }
     @include mixins.responsive(lg) {
-        padding: 8rem 6rem;
+        padding: 8rem 4rem;
+        background-color: red;
     
     }
     @include mixins.responsive(xlg) {
-        padding: 8rem 28rem;
+        padding: 8rem;
+        padding-right: 6rem;
+        padding-left: 2rem;
+        background-color: green;
     
     
     }
     @include mixins.responsive(xxlg) {
-        padding: 8rem 28rem;
+        padding: 8rem ;
+        padding-right: 6rem;
+        padding-left: 2rem;
+        background-color: blue;
     
     }
 
@@ -40,16 +47,23 @@
         h2 {
             color: white; 
             font-size: 2rem;
+            @include mixins.responsive(xxlg) {
+                margin-left: 10rem;
+            }
+                
         }
 
         p {
             color:rgb(223,223,223);
+            @include mixins.responsive(xxlg) {
+                margin-left: 10rem;
+            }
         }
     }
 
     &-cards {
         display: flex;
-        justify-content: space-between;
+        justify-content:space-between;
     
 
         @include mixins.responsive(xs) {
@@ -70,7 +84,7 @@
         @include mixins.responsive(lg) {
             flex-direction: row;
             align-items: center;
-            justify-content: space-between;
+          
         
         
 
@@ -79,14 +93,14 @@
         @include mixins.responsive(xlg) {
             flex-direction: row;
             align-items: center;
-            justify-content:space-between;
+          
         
         
         }
         @include mixins.responsive(xxlg) {
             flex-direction: row;
             align-items: center;
-            justify-content: space-between; 
+         
         
         }
     }
@@ -97,27 +111,27 @@
         border-radius: 10px;
         overflow: hidden;
 
-        @include mixins.responsive(xs) {
-            margin-bottom: 1rem;
-        }
-        @include mixins.responsive(sm) {
-            margin-bottom: 1rem;
-        }
-        @include mixins.responsive(md) {
-            margin-bottom: 1rem;
-        }
+        // @include mixins.responsive(xs) {
+        //     margin-bottom: 1rem;
+        // }
+        // @include mixins.responsive(sm) {
+        //     margin-bottom: 1rem;
+        // }
+        // @include mixins.responsive(md) {
+        //     margin-bottom: 1rem;
+        // }
         @include mixins.responsive(lg) {
             max-width: 280px;
             align-items: center;
     
         }
         @include mixins.responsive(xlg) {
-            max-width: 280px;
+            max-width: 350px;
             align-items: center;
     
         }
         @include mixins.responsive(xxlg) {
-            max-width: 280px;
+            max-width: 410px;
             align-items: center;
     
         }
@@ -130,6 +144,12 @@
             @include mixins.responsive(lg) {
                width:300px;  
             }
+            @include mixins.responsive(xlg) {
+                width:350px;  
+            }
+            @include mixins.responsive(xxlg) {
+                width:410px;  
+             }
 
         }
 
@@ -140,12 +160,14 @@
         h4 {
             margin: 0.9rem;
             font-size: 1.5rem;
+        
         }
 
         p {
             margin: 1rem;
             color: gray;
             line-height: 1.5;
+    
         }
 
         a {
@@ -161,6 +183,9 @@
         text-align: center;
         margin-top: 5rem;
         color: white;
+        @include mixins.responsive(xxlg) {
+            margin-left: 12rem;
+        }
 
         a {
             color: white;

@@ -959,17 +959,24 @@ footer .social-icon > a > i:hover {
 }
 @media only screen and (min-width: 992px) {
   .courses {
-    padding: 8rem 6rem;
+    padding: 8rem 4rem;
+    background-color: red;
   }
 }
 @media only screen and (min-width: 1200px) {
   .courses {
-    padding: 8rem 28rem;
+    padding: 8rem;
+    padding-right: 6rem;
+    padding-left: 2rem;
+    background-color: green;
   }
 }
 @media only screen and (min-width: 1400px) {
   .courses {
-    padding: 8rem 28rem;
+    padding: 8rem;
+    padding-right: 6rem;
+    padding-left: 2rem;
+    background-color: blue;
   }
 }
 .courses--heading {
@@ -980,8 +987,18 @@ footer .social-icon > a > i:hover {
   color: white;
   font-size: 2rem;
 }
+@media only screen and (min-width: 1400px) {
+  .courses--heading h2 {
+    margin-left: 10rem;
+  }
+}
 .courses--heading p {
   color: rgb(223, 223, 223);
+}
+@media only screen and (min-width: 1400px) {
+  .courses--heading p {
+    margin-left: 10rem;
+  }
 }
 .courses-cards {
   display: flex;
@@ -1008,21 +1025,18 @@ footer .social-icon > a > i:hover {
   .courses-cards {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
   }
 }
 @media only screen and (min-width: 1200px) {
   .courses-cards {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
   }
 }
 @media only screen and (min-width: 1400px) {
   .courses-cards {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
   }
 }
 .courses-card {
@@ -1030,21 +1044,6 @@ footer .social-icon > a > i:hover {
   max-width: 360px;
   border-radius: 10px;
   overflow: hidden;
-}
-@media only screen and (max-width: 576px) {
-  .courses-card {
-    margin-bottom: 1rem;
-  }
-}
-@media only screen and (min-width: 576px) {
-  .courses-card {
-    margin-bottom: 1rem;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .courses-card {
-    margin-bottom: 1rem;
-  }
 }
 @media only screen and (min-width: 992px) {
   .courses-card {
@@ -1054,13 +1053,13 @@ footer .social-icon > a > i:hover {
 }
 @media only screen and (min-width: 1200px) {
   .courses-card {
-    max-width: 280px;
+    max-width: 350px;
     align-items: center;
   }
 }
 @media only screen and (min-width: 1400px) {
   .courses-card {
-    max-width: 280px;
+    max-width: 410px;
     align-items: center;
   }
 }
@@ -1070,6 +1069,16 @@ footer .social-icon > a > i:hover {
 @media only screen and (min-width: 992px) {
   .courses-card--img {
     width: 300px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .courses-card--img {
+    width: 350px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .courses-card--img {
+    width: 410px;
   }
 }
 .courses-card--body {
@@ -1094,6 +1103,11 @@ footer .social-icon > a > i:hover {
   text-align: center;
   margin-top: 5rem;
   color: white;
+}
+@media only screen and (min-width: 1400px) {
+  .courses--info {
+    margin-left: 12rem;
+  }
 }
 .courses--info a {
   color: white;
