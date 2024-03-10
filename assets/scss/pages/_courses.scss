@@ -20,14 +20,14 @@
     }
     @include mixins.responsive(lg) {
         padding: 8rem 4rem;
-        background-color: red;
+    
     
     }
     @include mixins.responsive(xlg) {
         padding: 8rem;
         padding-right: 6rem;
         padding-left: 2rem;
-        background-color: green;
+    
     
     
     }
@@ -35,7 +35,7 @@
         padding: 8rem ;
         padding-right: 6rem;
         padding-left: 2rem;
-        background-color: blue;
+    
     
     }
 
@@ -47,9 +47,9 @@
         h2 {
             color: white; 
             font-size: 2rem;
-            @include mixins.responsive(xxlg) {
-                margin-left: 10rem;
-            }
+            // @include mixins.responsive(xxlg) {
+            //     margin-left: 10rem;
+            // }
                 
         }
 
@@ -183,9 +183,9 @@
         text-align: center;
         margin-top: 5rem;
         color: white;
-        @include mixins.responsive(xxlg) {
-            margin-left: 12rem;
-        }
+        // @include mixins.responsive(xxlg) {
+        //     margin-left: 8rem;
+        // }
 
         a {
             color: white;

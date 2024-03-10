@@ -960,7 +960,6 @@ footer .social-icon > a > i:hover {
 @media only screen and (min-width: 992px) {
   .courses {
     padding: 8rem 4rem;
-    background-color: red;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -968,7 +967,6 @@ footer .social-icon > a > i:hover {
     padding: 8rem;
     padding-right: 6rem;
     padding-left: 2rem;
-    background-color: green;
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -976,7 +974,6 @@ footer .social-icon > a > i:hover {
     padding: 8rem;
     padding-right: 6rem;
     padding-left: 2rem;
-    background-color: blue;
   }
 }
 .courses--heading {
@@ -986,11 +983,6 @@ footer .social-icon > a > i:hover {
 .courses--heading h2 {
   color: white;
   font-size: 2rem;
-}
-@media only screen and (min-width: 1400px) {
-  .courses--heading h2 {
-    margin-left: 10rem;
-  }
 }
 .courses--heading p {
   color: rgb(223, 223, 223);
@@ -1103,11 +1095,6 @@ footer .social-icon > a > i:hover {
   text-align: center;
   margin-top: 5rem;
   color: white;
-}
-@media only screen and (min-width: 1400px) {
-  .courses--info {
-    margin-left: 12rem;
-  }
 }
 .courses--info a {
   color: white;
